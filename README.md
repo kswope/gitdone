@@ -10,10 +10,10 @@ Install:
 sudo cp gitdone /usr/local/bin
 ```
 
-
 Created for use in ansible's local_action:
 
 
+```
 ---
 
 - hosts: all
