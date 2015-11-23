@@ -1,16 +1,19 @@
 # gitdone
 
-Bash script that returns false when a local git repo isn't committed and pushed
+
+Bash script that returns true only if the current directory is commited and pushed
 
 
 Install: 
+
 ```
 sudo cp gitdone /usr/local/bin
-
-
-Primarily created for use in ansible:
-
 ```
+
+
+Created for use in ansible's local_action:
+
+
 ---
 
 - hosts: all
