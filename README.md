@@ -6,7 +6,6 @@ Bash script that returns false when a local git repo isn't committed and pushed
 Install: 
 ```
 sudo cp gitdone /usr/local/bin
-```
 
 
 Primarily created for use in ansible:
