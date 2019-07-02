@@ -1,0 +1,5 @@
+
+RB=$1 # Required Branch
+CB=$(git branch | grep \* | cut -d ' ' -f2) # Current Branch
+
+[[ "$RB" == "$CB" ]] || { echo >&2 "Must be on $RB branch"; exit 1; }
