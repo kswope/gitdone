@@ -29,5 +29,5 @@ sudo cp reqbranch /usr/local/bin
 or
 
 ```
-$ ln -s ~kevin/Development/gitdone/reqbranch /usr/local/bin/
+ln -s ~kevin/Development/gitdone/reqbranch /usr/local/bin/
 ```
